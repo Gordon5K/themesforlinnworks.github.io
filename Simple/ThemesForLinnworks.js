@@ -13,7 +13,17 @@ function ThemesForLinnworksModule($scope, $element, $q) {
 	
 	$scope.Install = function(style)
 	{
-		console.log("You tried to install style: " + style.Name);
+		var settingsService = new Services.SettingsService(self.options, null);
+		
+		settingsService.addsetting("ThemesForLinnworks", "ThemeUrl", style.File, false, function(event)
+		{
+				if(event.hasErrors() == true)
+				{
+					console.log("error saving theme url");
+				}
+				
+				console.log("complete");
+		});
 	}
 	
 	$scope.GetUsername = function()
