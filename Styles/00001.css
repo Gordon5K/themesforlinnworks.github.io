@@ -139,3 +139,8 @@ ul.nav.nav-tabs {
 ul.thumbnails {
     overflow-y: auto;
 }
+
+available-modules ul.navigation li a img {
+    content: url("http://www.linnworks.com/themes/one-ring/images/team-matt.png");
+}
+
