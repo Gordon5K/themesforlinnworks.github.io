@@ -1,4 +1,12 @@
 <div ng-controller="ThemesForLinnworksModule">
-	<h1>Hello world</h1>
-	{{GetUsername()}}
+	<div class="well">
+		<h1>Themes For Linnworks</h1>
+		<p>Select a theme from the list below and click install. This will then install on your system.</p>
+		
+		<div ng-repeat="style in styles">
+			<strong>{{style.Name}}</strong>
+			<p>{{style.Description}}</p>
+			<button class="btn btn-primary" ng-click="Install(style)">Install</button>
+		</div>
+	</div>
 </div>
