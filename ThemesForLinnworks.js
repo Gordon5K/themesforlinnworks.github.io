@@ -1,3 +1,5 @@
+var settingsService = new Services.SettingsService(self.options, null);
+
 settingsService.getSettings(["ThemesForLinnworks"], function(event)
 {
 	var result = event.result["ThemesForLinnworks"];
