@@ -2,6 +2,10 @@ header-panel {
     background-color: #ffbfff ;
 }
 
+i.fa{
+    text-shadow: 1px 1px 1px rgb(70, 70, 70);
+}
+
 header-panel.headerPanel.ng-isolate-scope.active {
     background-color: #0284C2;
 }
