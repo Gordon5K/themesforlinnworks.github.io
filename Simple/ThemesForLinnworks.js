@@ -5,10 +5,13 @@ function ThemesForLinnworksModule($scope, $element, $q) {
     self.onMessage = function(msg) {
         switch (msg.key) {
             case Core.Messenger.MESSAGE_TYPES.INITIALIZE:
-                var promises = [];
-                promises.push($scope.GetLocations());
-                $scope.ReloadData(promises);
+			
         }
     };
+	
+	$scope.GetUsername = function()
+	{
+		return Core.SessionManager.getSession().company;
+	}
 
 }
