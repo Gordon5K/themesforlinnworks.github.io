@@ -1,146 +1,156 @@
 .lwDialog {
-    border-radius: 3px;
-    box-shadow: 0 0 5px #666;
+    border-radius: 3px !important;
+    box-shadow: 0 0 5px #666 !important;
 }
 
 .lwDialog .nav.nav-tabs {
-    padding-bottom: 5px;
+    padding-bottom: 5px !important;
 }
 
 .lwDialog .nav.nav-tabs li a {
-    background-color: transparent;
-    border: none;
-    padding: 5px 15px;
+    background-color: transparent !important;
+    border: none !important;
+    padding: 5px 15px !important;
 }
 
 .lwDialog .nav.nav-tabs li a.active i.documentationLink {
-    color: white ;
+    color: white !important;
 }
 
 .lwDialog .nav.nav-tabs li.active a {
-    background-color: #094077;
-    color: white;
+    background-color: #094077 !important;
+    color: white !important;
 }
 
 .menu .area {
-    background: white;
-    border: none;
-    box-shadow: 0 0 30px #555;
-    color: #094077;
+    background: white !important;
+    border: none !important;
+    box-shadow: 0 0 30px #555 !important;
+    color: #094077 !important;
 }
 
 .menu .area .content h2 {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .menu .area .content h2, .menu .area .content .moduleContainer .moduleName {
-    color: #094077;
+    color: #094077 !important;
 }
 
 .menu available-modules ul.navigation li {
-    background-color: #094077;
-    border-bottom: 1px solid #093067;
-    border-right: 1px solid #093067;
-    border-top: 1px solid #195087;
+    background-color: #094077 !important;
+    border-bottom: 1px solid #093067 !important;
+    border-right: 1px solid #093067 !important;
+    border-top: 1px solid #195087 !important;
 }
 
 button.btn {
-    background: none;
-    background-color: #e9eaeb;
-    border: 1px solid #ccc;
+    background: none !important;
+    background-color: #e9eaeb !important;
+    border: 1px solid #ccc !important;
 }
 
 button.btn.btn-primary {
-    background: none;
-    background-color: #094077 ;
-    border: none;
+    background: none !important;
+    background-color: #094077 !important;
+    border: none !important;
 }
 
 button.btn.logoutBtn {
-    background: #A63639;
-    border: #A63639;
+    background: #A63639 !important;
+    border: #A63639 !important;
 }
 
 div.header-buttons button, div.header-buttons a i {
-    color: white;
-    opacity: 1;
+    color: white !important;
+    opacity: 1 !important;
 }
 
 div.leftMenuBackground {
-    background-color: #094077;
+    background-color: #094077 !important;
 }
 
 div.lwDialog .content {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
 }
 
 div.lwDialog .title {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
 }
 
 div.lwDialog.default {
-    box-shadow: 0 0 30px #555;
+    box-shadow: 0 0 30px #555 !important;
 }
 
 div.lwDialogBackDrop {
-    opacity: 0.3;
+    opacity: 0.3 !important;
 }
 
 div.title {
-    background-color: #094077;
+    background-color: #094077 !important;
 }
 
 header-panel.headerPanel.active {
-    background-color: #094077;
-    box-shadow: 0 0 1px #062748;
-    z-index: 1;
+    background-color: #094077 !important;
+    box-shadow: 0 0 1px #062748 !important;
+    z-index: 1 !important;
 }
 
 input[readonly], textarea[readonly] {
-    background: #f0f0f0;
-    opacity: 1;
+    background: #f0f0f0 !important;
+    opacity: 1 !important;
 }
 
 tr.headerRow .nav.nav-tabs {
-    border-bottom: none;
-    margin: 5px;
+    border-bottom: none !important;
+    margin: 5px !important;
 }
 
 tr.headerRow td.tabsTd {
-    background: #08366D;
+    background: #08366D !important;
 }
 
 tr.headerRow ul.nav.nav-tabs li {
-    background: transparent;
-    color: white;
-    margin-right: 10px;
-    opacity: 1;
+    background: transparent !important;
+    color: white !important;
+    margin-right: 10px !important;
+    opacity: 1 !important;
 }
 
 tr.headerRow ul.nav.nav-tabs li a, tr.headerRow ul.nav.nav-tabs li .close {
-    color: white;
-    opacity: 1;
+    color: white !important;
+    opacity: 1 !important;
 }
 
 tr.headerRow ul.nav.nav-tabs li.active {
-    background: white;
+    background: white !important;
 }
 
 tr.headerRow ul.nav.nav-tabs li.active a, tr.headerRow ul.nav.nav-tabs li.active .close {
-    color: #094077;
+    color: #094077 !important;
 }
 
 ul.nav.nav-tabs {
-    border-bottom: 1px solid #ddd ;
+    border-bottom: 1px solid #ddd !important;
 }
 
 ul.thumbnails {
-    overflow-y: auto;
+    overflow-y: auto !important;
+}
+
+available-modules ul.navigation li:first-of-type {
+    height: 80px !important;
+}
+
+available-modules ul.navigation li:first-of-type a span {
+    display: none !important;
 }
 
 available-modules ul.navigation li a img {
+    width: 80px !important;
+    height: 50px !important;
     content: url("http://www.linnworks.com/themes/one-ring/images/team-matt.png");
 }
 
