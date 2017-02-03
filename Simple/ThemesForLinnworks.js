@@ -22,7 +22,7 @@ function ThemesForLinnworksModule($scope, $element, $q) {
 					console.log("error saving theme url");
 				}
 				
-				console.log("completes");
+				Core.Dialogs.addNotify("Installed! Please refresh Linnworks now.", "SUCCESS");
 		});
 	}
 	
