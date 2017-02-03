@@ -44,55 +44,55 @@
     border-top: 1px solid #195087;
 }
 
-button.btn {
+.btn {
     background: none;
     background-color: #e9eaeb;
     border: 1px solid #ccc;
 }
 
-button.btn.btn-primary {
+.btn.btn-primary {
     background: none;
     background-color: #094077 ;
     border: none;
 }
 
-button.btn.logoutBtn {
+.btn.logoutBtn {
     background: #A63639;
     border: #A63639;
 }
 
-div.header-buttons button, div.header-buttons a i {
+.header-buttons button, div.header-buttons a i {
     color: white;
     opacity: 1;
 }
 
-div.leftMenuBackground {
+.leftMenuBackground {
     background-color: #094077;
 }
 
-div.lwDialog .content {
+.lwDialog .content {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
 
-div.lwDialog .title {
+.lwDialog .title {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
 
-div.lwDialog.default {
+.lwDialog.default {
     box-shadow: 0 0 30px #555;
 }
 
-div.lwDialogBackDrop {
+.lwDialogBackDrop {
     opacity: 0.3;
 }
 
-div.title {
+.title {
     background-color: #094077;
 }
 
-header-panel.headerPanel.active {
+.headerPanel.active {
     background-color: #094077;
     box-shadow: 0 0 1px #062748;
     z-index: 1;
@@ -103,39 +103,39 @@ input[readonly], textarea[readonly] {
     opacity: 1;
 }
 
-tr.headerRow .nav.nav-tabs {
+.headerRow .nav.nav-tabs {
     border-bottom: none;
     margin: 5px;
 }
 
-tr.headerRow td {
+.headerRow td {
     background: #08366D;
 }
 
-tr.headerRow ul.nav.nav-tabs li {
+.headerRow ul.nav.nav-tabs li {
     background: transparent;
     color: white;
     margin-right: 10px;
     opacity: 1;
 }
 
-tr.headerRow ul.nav.nav-tabs li a, tr.headerRow ul.nav.nav-tabs li .close {
+.headerRow ul.nav.nav-tabs li a, tr.headerRow ul.nav.nav-tabs li .close {
     color: white;
     opacity: 1;
 }
 
-tr.headerRow ul.nav.nav-tabs li.active {
+.headerRow ul.nav.nav-tabs li.active {
     background: white;
 }
 
-tr.headerRow ul.nav.nav-tabs li.active a, tr.headerRow ul.nav.nav-tabs li.active .close {
+.headerRow ul.nav.nav-tabs li.active a, tr.headerRow ul.nav.nav-tabs li.active .close {
     color: #094077;
 }
 
-ul.nav.nav-tabs {
+.nav.nav-tabs {
     border-bottom: 1px solid #ddd ;
 }
 
-ul.thumbnails {
+.thumbnails {
     overflow-y: auto;
 }
