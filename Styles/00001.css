@@ -6,9 +6,10 @@ header-panel.headerPanel.ng-isolate-scope.active {
     background-color: #0284C2;
 }
 
-td.tabsTd {
+tr.headerRow th {
     background-color: #006b9c;
 }
+
 
 li.enabled a {
     background-color: #1b74a3;
