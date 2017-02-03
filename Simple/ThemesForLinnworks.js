@@ -15,7 +15,7 @@ function ThemesForLinnworksModule($scope, $element, $q) {
 	{
 		var settingsService = new Services.SettingsService(self.options, null);
 		
-		settingsService.addsetting("ThemesForLinnworks", "ThemeUrl", style.File, false, function(event)
+		settingsService.addSetting("ThemesForLinnworks", "ThemeUrl", style.File, false, function(event)
 		{
 				if(event.hasErrors() == true)
 				{
