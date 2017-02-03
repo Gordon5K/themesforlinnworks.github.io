@@ -1,4 +1,4 @@
-body
+*
 {
-	display: none;
+	color: red !important;
 }
