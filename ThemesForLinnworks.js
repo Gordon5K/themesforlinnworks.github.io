@@ -4,7 +4,13 @@ settingsService.getSettings(["ThemesForLinnworks"], function(event)
 {
 	var result = event.result["ThemesForLinnworks"];
 	
+	if(result == null)
+		return;
+	
 	var setting = result.firstOrDefault("Setting", "ThemeUrl");
+	
+	if(setting == null)
+		return;
 	
 	var url = "https://alexconnolly.github.io/themesforlinnworks.github.io/Styles/" + setting.Value;
 	

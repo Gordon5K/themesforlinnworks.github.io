@@ -1,4 +1,18 @@
-*
-{
-	color: red !important;
+header-panel {
+    background-color: #ffbfff ;
 }
+
+header-panel.headerPanel.ng-isolate-scope.active {
+    background-color: #0284C2;
+}
+
+td.tabsTd {
+    background-color: #006b9c;
+}
+
+li.enabled a {
+    background-color: #1b74a3;
+    color: #ffffff;
+    border-color: #e6d1e6;
+}
+
