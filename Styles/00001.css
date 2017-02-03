@@ -1,23 +1,141 @@
-header-panel {
-    background-color: #ffbfff ;
+.lwDialog {
+    border-radius: 3px;
+    box-shadow: 0 0 5px #666;
 }
 
-i.fa{
-    text-shadow: 1px 1px 1px rgb(70, 70, 70);
+.lwDialog .nav.nav-tabs {
+    padding-bottom: 5px;
 }
 
-header-panel.headerPanel.ng-isolate-scope.active {
-    background-color: #0284C2;
+.lwDialog .nav.nav-tabs li a {
+    background-color: transparent;
+    border: none;
+    padding: 5px 15px;
 }
 
-tr.headerRow th {
-    background-color: #006b9c;
+.lwDialog .nav.nav-tabs li a.active i.documentationLink {
+    color: white ;
 }
 
-
-li.enabled a {
-    background-color: #1b74a3;
-    color: #ffffff;
-    border-color: #e6d1e6;
+.lwDialog .nav.nav-tabs li.active a {
+    background-color: #094077;
+    color: white;
 }
 
+.menu .area {
+    background: white;
+    border: none;
+    box-shadow: 0 0 30px #555;
+    color: #094077;
+}
+
+.menu .area .content h2 {
+    font-weight: bold;
+}
+
+.menu .area .content h2, .menu .area .content .moduleContainer .moduleName {
+    color: #094077;
+}
+
+.menu available-modules ul.navigation li {
+    background-color: #094077;
+    border-bottom: 1px solid #093067;
+    border-right: 1px solid #093067;
+    border-top: 1px solid #195087;
+}
+
+button.btn {
+    background: none;
+    background-color: #e9eaeb;
+    border: 1px solid #ccc;
+}
+
+button.btn.btn-primary {
+    background: none;
+    background-color: #094077 ;
+    border: none;
+}
+
+button.btn.logoutBtn {
+    background: #A63639;
+    border: #A63639;
+}
+
+div.header-buttons button, div.header-buttons a i {
+    color: white;
+    opacity: 1;
+}
+
+div.leftMenuBackground {
+    background-color: #094077;
+}
+
+div.lwDialog .content {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+div.lwDialog .title {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+div.lwDialog.default {
+    box-shadow: 0 0 30px #555;
+}
+
+div.lwDialogBackDrop {
+    opacity: 0.3;
+}
+
+div.title {
+    background-color: #094077;
+}
+
+header-panel.headerPanel.active {
+    background-color: #094077;
+    box-shadow: 0 0 1px #062748;
+    z-index: 1;
+}
+
+input[readonly], textarea[readonly] {
+    background: #f0f0f0;
+    opacity: 1;
+}
+
+tr.headerRow .nav.nav-tabs {
+    border-bottom: none;
+    margin: 5px;
+}
+
+tr.headerRow td.tabsTd {
+    background: #08366D;
+}
+
+tr.headerRow ul.nav.nav-tabs li {
+    background: transparent;
+    color: white;
+    margin-right: 10px;
+    opacity: 1;
+}
+
+tr.headerRow ul.nav.nav-tabs li a, tr.headerRow ul.nav.nav-tabs li .close {
+    color: white;
+    opacity: 1;
+}
+
+tr.headerRow ul.nav.nav-tabs li.active {
+    background: white;
+}
+
+tr.headerRow ul.nav.nav-tabs li.active a, tr.headerRow ul.nav.nav-tabs li.active .close {
+    color: #094077;
+}
+
+ul.nav.nav-tabs {
+    border-bottom: 1px solid #ddd ;
+}
+
+ul.thumbnails {
+    overflow-y: auto;
+}
