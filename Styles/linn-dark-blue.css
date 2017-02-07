@@ -49,12 +49,12 @@ html {
     font-weight: bold;
 }
 
-.menu .area .content h2, .menu .area .content .moduleContainer .moduleName {
-    color: #094077;
+.menu .area .content h2:hover {
+    color: inherit;
 }
 
-.mainContentLeft {
-    z-index: 1001;
+.menu .area .content h2, .menu .area .content .moduleContainer .moduleName {
+    color: #094077;
 }
 
 .menu available-modules ul.navigation li {
@@ -64,18 +64,39 @@ html {
     border-top: 1px solid #195087;
 }
 
-div[ng-controller] .content {
-    background: transparent; 
+.lwControl.dynamic  .content {
+    transition: all 1s;   
 }
 
-div[ng-controller] .content .control-label {
-    font-weight:bold;
-    color:black;
+.lwControl.dynamic .content {
+    background: white;
+    box-shadow: 0 2px 5px #999;
 }
 
-div[ng-controller] .content a,
-div[ng-controller] .content .control-value {
-    color:#094077;   
+.lwControl.dynamic .content .control-label {
+    font-weight: bold;
+    color: black;
+}
+
+.lwControl.dynamic .content a, .lwControl.dynamic .content .control-value, .lwControl.dynamic .content label {
+    color: #094077;
+}
+
+.lwControl.dynamic .content  .link-button:hover a {
+    background:#dedede ;   
+}
+
+.lwControl.dynamic .content select {
+    background: white;
+    color: black;
+}
+
+.notificationsTable .unread-true {
+    background: #dedede;
+}
+
+.notification-title, .notification-body, .notification-date, .notification-view-all {
+    color: black;
 }
 
 .headerBlock:hover, .headerBlock.opened {
@@ -95,15 +116,26 @@ button.btn {
 }
 
 button.btn:hover {
-    transform: scale(0.95);
-    transition: all 0.2s;
+    color: #555555;
+    transform: scale(0.98);
+    transition: all 0.1s;
+    box-shadow: none;
 }
 
-button.btn.btn-primary {
+button.btn:active {
+    transform: scale(0.95);
+    transition: all 0.05s;
+}
+
+button.btn.btn-primary, button.btn.active {
     background: none;
     background-color: #094077 ;
     box-shadow: 0 2px 5px #aaa;
     border-bottom: 1px solid white;
+}
+
+button.btn.btn-primary:hover, button.btn.active {
+    color: white;
 }
 
 button.btn.logoutBtn {
