@@ -1,0 +1,252 @@
+.mainContentRight {
+    overflow-y: auto;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+.lwDialog {
+    border-radius: 3px;
+    box-shadow: 0 0 5px #666;
+}
+
+.nav.nav-tabs {
+    padding-bottom: 5px;
+}
+
+.nav.nav-tabs li a {
+    background-color: transparent;
+    border: none;
+    padding: 5px 15px;
+}
+
+.nav.nav-tabs li a i {
+    position: relative;
+    padding: 0 0 0 10px;
+}
+
+.nav.nav-tabs li a.active i.documentationLink {
+    color: white ;
+}
+
+.nav.nav-tabs li.active a {
+    background-color: #094077;
+    color: white;
+    border: none;
+    box-shadow: 0 2px 5px #aaa;
+}
+
+.menu .area {
+    background: white;
+    border: none;
+    box-shadow: 0 0 30px #555;
+    color: #094077;
+    height: 100%;
+}
+
+.menu .area .content h2 {
+    font-weight: bold;
+}
+
+.menu .area .content h2, .menu .area .content .moduleContainer .moduleName {
+    color: #094077;
+}
+
+.mainContentLeft {
+    z-index: 1001;
+}
+
+.menu available-modules ul.navigation li {
+    background-color: #094077;
+    border-bottom: 1px solid #093067;
+    border-right: 1px solid #093067;
+    border-top: 1px solid #195087;
+}
+
+div[ng-controller] .content {
+    background: transparent; 
+}
+
+div[ng-controller] .content .control-label {
+    font-weight:bold;
+    color:black;
+}
+
+div[ng-controller] .content a,
+div[ng-controller] .content .control-value {
+    color:#094077;   
+}
+
+.headerBlock:hover, .headerBlock.opened {
+    background: white;
+    color: #08366D;
+}
+
+.headerBlock:hover a, .headerBlock.opened a {
+    color: #08366D;
+}
+
+button.btn {
+    background: none;
+    background-color: #e9eaeb;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+button.btn:hover {
+    transform: scale(0.95);
+    transition: all 0.2s;
+}
+
+button.btn.btn-primary {
+    background: none;
+    background-color: #094077 ;
+    box-shadow: 0 2px 5px #aaa;
+    border-bottom: 1px solid white;
+}
+
+button.btn.logoutBtn {
+    background: #A63639;
+    border: #A63639;
+    box-shadow: none;
+}
+
+div.header-buttons button, div.header-buttons a i {
+    color: white;
+    opacity: 1;
+}
+
+div.leftMenuBackground {
+    background-color: #094077;
+}
+
+div.lwDialog .content {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+div.lwDialog .title {
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #094077, #01d2b3) 1 100;
+}
+
+div.lwDialog.default {
+    box-shadow: 0 0 15px #333;
+}
+
+div.lwDialogBackDrop {
+    opacity: 0.3;
+}
+
+div.title {
+    background-color: #094077;
+}
+
+header-panel.headerPanel.active {
+    background-color: #094077;
+    box-shadow: 0 0 1px #062748;
+    z-index: 1;
+}
+
+input[readonly], textarea[readonly] {
+    background: #f0f0f0;
+    opacity: 1;
+}
+
+tr.headerRow .nav.nav-tabs {
+    border-bottom: none;
+    margin: 5px;
+    padding: 0;
+}
+
+tr.headerRow td {
+    background: #08366D;
+}
+
+tr.headerRow ul.nav.nav-tabs li {
+    background: transparent;
+    color: white;
+    margin-right: 10px;
+    opacity: 1;
+    position: relative;
+}
+
+tr.headerRow ul.nav.nav-tabs li a {
+    text-align: left;
+    max-width: 185px;
+}
+
+tr.headerRow ul.nav.nav-tabs li a, tr.headerRow ul.nav.nav-tabs li .close {
+    color: white;
+    opacity: 1;
+}
+
+tr.headerRow ul.nav.nav-tabs li .close {
+    margin-top: 7px
+;
+}
+
+tr.headerRow ul.nav.nav-tabs li.active {
+    background: white;
+}
+
+tr.headerRow ul.nav.nav-tabs li.active a {
+    background: transparent;
+    width: 100%;
+}
+
+tr.headerRow ul.nav.nav-tabs li.active a, tr.headerRow ul.nav.nav-tabs li.active .close {
+    color: #094077;
+    box-shadow: none;
+}
+
+ul.nav.nav-tabs {
+    border-bottom: 1px solid #ddd ;
+}
+
+ul.thumbnails {
+    overflow-y: auto;
+}
+
+available-modules ul.navigation li:first-of-type {
+    height: 80px;
+}
+
+available-modules ul.navigation li:first-of-type a span {
+    display: none;
+}
+
+available-modules ul.navigation li a img {
+}
+
+.slick-cell.selected {
+    background: #094077;
+}
+
+ul.dropdown-menu {
+    margin-bottom: 20px;
+    padding: 3px 0px;
+    overflow-y: auto;
+}
+
+.dropdown-menu li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li .btn {
+    box-shadow: none;
+}
+
+.lwTooltip {
+    background: #094077;
+    box-shadow: 0 0 30px #aaa;
+}
+
+.lwTooltip img {
+    border: none;
+    box-shadow: 0 0 7px #333;
+}
+
