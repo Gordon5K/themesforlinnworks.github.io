@@ -1,9 +1,52 @@
-.mainContentRight {
-    overflow-y: auto;
+.dropdown-menu li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-html {
-    overflow-y: hidden;
+.dropdown-menu li .btn {
+    box-shadow: none;
+}
+
+.headerBlock:hover a, .headerBlock.opened a {
+    color: #08366D;
+}
+
+.headerBlock:hover, .headerBlock.opened {
+    background: white;
+    color: #08366D;
+}
+
+.loadingMessage i.fa.fa-spinner:before {
+    content: '';
+}
+
+.loadingMessageBackdrop {
+    background: white;
+    opacity: 0.7;
+}
+
+.lwControl.dynamic .content {
+    background: white;
+    box-shadow: 0 2px 5px #999;
+}
+
+.lwControl.dynamic .content .control-label {
+    color: black;
+    font-weight: bold;
+}
+
+.lwControl.dynamic .content .link-button:hover a {
+    background: #dedede ;
+}
+
+.lwControl.dynamic .content a, .lwControl.dynamic .content .control-value, .lwControl.dynamic .content label {
+    color: #094077;
+}
+
+.lwControl.dynamic .content select {
+    background: white;
+    color: black;
 }
 
 .lwDialog {
@@ -11,30 +54,18 @@ html {
     box-shadow: 0 0 5px #666;
 }
 
-.nav.nav-tabs {
-    padding-bottom: 5px;
+.lwTooltip {
+    background: #094077;
+    box-shadow: 0 0 30px #aaa;
 }
 
-.nav.nav-tabs li a {
-    background-color: transparent;
+.lwTooltip img {
     border: none;
-    padding: 5px 15px;
+    box-shadow: 0 0 7px #333;
 }
 
-.nav.nav-tabs li a i {
-    position: relative;
-    padding: 0 0 0 10px;
-}
-
-.nav.nav-tabs li a.active i.documentationLink {
-    color: white ;
-}
-
-.nav.nav-tabs li.active a {
-    background-color: #094077;
-    color: white;
-    border: none;
-    box-shadow: 0 2px 5px #aaa;
+.mainContentRight {
+    overflow-y: auto;
 }
 
 .menu .area {
@@ -49,12 +80,12 @@ html {
     font-weight: bold;
 }
 
-.menu .area .content h2:hover {
-    color: inherit;
-}
-
 .menu .area .content h2, .menu .area .content .moduleContainer .moduleName {
     color: #094077;
+}
+
+.menu .area .content h2:hover {
+    color: inherit;
 }
 
 .menu available-modules ul.navigation li {
@@ -64,30 +95,33 @@ html {
     border-top: 1px solid #195087;
 }
 
-.lwControl.dynamic  .content {
-    transition: all 1s;   
+.nav.nav-tabs {
+    padding-bottom: 5px;
 }
 
-.lwControl.dynamic .content {
-    background: white;
-    box-shadow: 0 2px 5px #999;
+.nav.nav-tabs li a {
+    background-color: transparent;
+    border: none;
+    padding: 5px 15px;
 }
 
-.lwControl.dynamic .content .control-label {
-    font-weight: bold;
-    color: black;
+.nav.nav-tabs li a i {
+    padding: 0 0 0 10px;
+    position: relative;
 }
 
-.lwControl.dynamic .content a, .lwControl.dynamic .content .control-value, .lwControl.dynamic .content label {
-    color: #094077;
+.nav.nav-tabs li a.active i.documentationLink {
+    color: white ;
 }
 
-.lwControl.dynamic .content  .link-button:hover a {
-    background:#dedede ;   
+.nav.nav-tabs li.active a {
+    background-color: #094077;
+    border: none;
+    box-shadow: 0 2px 5px #aaa;
+    color: white;
 }
 
-.lwControl.dynamic .content select {
-    background: white;
+.notification-title, .notification-body, .notification-date, .notification-view-all {
     color: black;
 }
 
@@ -95,17 +129,19 @@ html {
     background: #dedede;
 }
 
-.notification-title, .notification-body, .notification-date, .notification-view-all {
-    color: black;
+.slick-cell.selected {
+    background: #094077;
 }
 
-.headerBlock:hover, .headerBlock.opened {
-    background: white;
-    color: #08366D;
+available-modules ul.navigation li a img {
 }
 
-.headerBlock:hover a, .headerBlock.opened a {
-    color: #08366D;
+available-modules ul.navigation li:first-of-type {
+    height: 80px;
+}
+
+available-modules ul.navigation li:first-of-type a span {
+    display: none;
 }
 
 button.btn {
@@ -115,23 +151,11 @@ button.btn {
     box-shadow: 0 2px 5px #ccc;
 }
 
-button.btn:hover {
-    color: #555555;
-    transform: scale(0.98);
-    transition: all 0.1s;
-    box-shadow: none;
-}
-
-button.btn:active {
-    transform: scale(0.95);
-    transition: all 0.05s;
-}
-
 button.btn.btn-primary, button.btn.active {
     background: none;
     background-color: #094077 ;
-    box-shadow: 0 2px 5px #aaa;
     border-bottom: 1px solid white;
+    box-shadow: 0 2px 5px #aaa;
 }
 
 button.btn.btn-primary:hover, button.btn.active {
@@ -142,6 +166,18 @@ button.btn.logoutBtn {
     background: #A63639;
     border: #A63639;
     box-shadow: none;
+}
+
+button.btn:active {
+    transform: scale(0.95);
+    transition: all 0.05s;
+}
+
+button.btn:hover, tr.highlight td button.btn:hover {
+    box-shadow: none;
+    color: #555555;
+    transform: scale(0.98);
+    transition: all 0.1s;
 }
 
 div.header-buttons button, div.header-buttons a i {
@@ -181,56 +217,63 @@ header-panel.headerPanel.active {
     z-index: 1;
 }
 
+html {
+    overflow-y: hidden;
+}
+
 input[readonly], textarea[readonly] {
     background: #f0f0f0;
     opacity: 1;
 }
 
-tr.headerRow .nav.nav-tabs {
-    border-bottom: none;
-    margin: 5px;
-    padding: 0;
+tr.headerRow {
+    background: #08366D;
 }
 
 tr.headerRow td {
     background: #08366D;
-}
-
-tr.headerRow ul.nav.nav-tabs li {
-    background: transparent;
-    color: white;
-    margin-right: 10px;
-    opacity: 1;
-    position: relative;
-}
-
-tr.headerRow ul.nav.nav-tabs li a {
-    text-align: left;
-    max-width: 185px;
-}
-
-tr.headerRow ul.nav.nav-tabs li a, tr.headerRow ul.nav.nav-tabs li .close {
-    color: white;
-    opacity: 1;
-}
-
-tr.headerRow ul.nav.nav-tabs li .close {
-    margin-top: 7px
+    color: whit
 ;
 }
 
-tr.headerRow ul.nav.nav-tabs li.active {
+tr.headerRow td .close {
+    background: #08366D;
+}
+
+tr.headerRow td a {
+    max-width: 185px;
+    text-align: left;
+    color: white;
+}
+
+tr.headerRow td li a, tr.headerRow td .close {
+    background: transparent;
+    border: none;
+    color: white;
+    opacity: 1;
+}
+
+tr.headerRow td.active {
     background: white;
 }
 
-tr.headerRow ul.nav.nav-tabs li.active a {
-    background: transparent;
-    width: 100%;
+tr.headerRow td.active a {
+    box-shadow: none;
+    color: #094077;
 }
 
-tr.headerRow ul.nav.nav-tabs li.active a, tr.headerRow ul.nav.nav-tabs li.active .close {
-    color: #094077;
-    box-shadow: none;
+tr.headerRow td.active .close {
+    color: #08366D;
+}
+
+tr.highlight td button.btn {
+    box-shadow: 0 2px 5px #2a779d;
+}
+
+ul.dropdown-menu {
+    margin-bottom: 20px;
+    overflow-y: auto;
+    padding: 3px 0px;
 }
 
 ul.nav.nav-tabs {
@@ -239,46 +282,5 @@ ul.nav.nav-tabs {
 
 ul.thumbnails {
     overflow-y: auto;
-}
-
-available-modules ul.navigation li:first-of-type {
-    height: 80px;
-}
-
-available-modules ul.navigation li:first-of-type a span {
-    display: none;
-}
-
-available-modules ul.navigation li a img {
-}
-
-.slick-cell.selected {
-    background: #094077;
-}
-
-ul.dropdown-menu {
-    margin-bottom: 20px;
-    padding: 3px 0px;
-    overflow-y: auto;
-}
-
-.dropdown-menu li {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.dropdown-menu li .btn {
-    box-shadow: none;
-}
-
-.lwTooltip {
-    background: #094077;
-    box-shadow: 0 0 30px #aaa;
-}
-
-.lwTooltip img {
-    border: none;
-    box-shadow: 0 0 7px #333;
 }
 
