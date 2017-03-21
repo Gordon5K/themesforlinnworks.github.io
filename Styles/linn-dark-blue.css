@@ -54,6 +54,10 @@
     box-shadow: 0 0 5px #666;
 }
 
+.lwDialog.window-full-screen {
+    opacity: 1;
+}
+
 .lwTooltip {
     background: #094077;
     box-shadow: 0 0 30px #aaa;
@@ -74,13 +78,41 @@
     box-shadow: 0 0 30px #555;
     color: #094077;
     height: 100%;
+    min-width: 300px;
+    width: 300px;
+}
+
+.menu .area .column {
+    height: calc(100% + 10px);
+}
+
+.menu .area .content {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.menu .area .content .moduleContainer {
+    height: 35px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.menu .area .content .moduleContainer:hover {
+    background: #094077;
+}
+
+.menu .area .content .moduleContainer:hover .moduleName, .menu .area .content .moduleContainer:hover a.documentationLink i {
+    color: white;
+    opacity: 1;
 }
 
 .menu .area .content h2 {
     font-weight: bold;
+    margin-left: 30px;
 }
 
-.menu .area .content h2, .menu .area .content .moduleContainer .moduleName {
+.menu .area .content h2, .menu .area .content .moduleContainer .moduleName, a.documentationLink i {
     color: #094077;
 }
 
@@ -230,20 +262,14 @@ tr.headerRow {
     background: #08366D;
 }
 
-tr.headerRow td {
-    background: #08366D;
-    color: whit
-;
-}
-
 tr.headerRow td .close {
     background: #08366D;
 }
 
 tr.headerRow td a {
+    color: white;
     max-width: 185px;
     text-align: left;
-    color: white;
 }
 
 tr.headerRow td li a, tr.headerRow td .close {
@@ -253,17 +279,22 @@ tr.headerRow td li a, tr.headerRow td .close {
     opacity: 1;
 }
 
+tr.headerRow td, tr.headerRow td span.tabSwitcher {
+    background: #08366D;
+    color: white;
+}
+
 tr.headerRow td.active {
     background: white;
+}
+
+tr.headerRow td.active .close {
+    color: #08366D;
 }
 
 tr.headerRow td.active a {
     box-shadow: none;
     color: #094077;
-}
-
-tr.headerRow td.active .close {
-    color: #08366D;
 }
 
 tr.highlight td button.btn {
