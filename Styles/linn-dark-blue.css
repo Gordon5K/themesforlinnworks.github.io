@@ -1,317 +1,317 @@
 .dropdown-menu li {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    margin: 0!important;
+    padding: 0!important;
+    width: 100%!important;
 }
 
 .dropdown-menu li .btn {
-    box-shadow: none;
+    box-shadow: none!important;
 }
 
 .headerBlock:hover a, .headerBlock.opened a {
-    color: #08366D;
+    color: #08366D!important;
 }
 
 .headerBlock:hover, .headerBlock.opened {
-    background: white;
-    color: #08366D;
+    background: white!important;
+    color: #08366D!important;
 }
 
 .loadingMessage i.fa.fa-spinner:before {
-    content: '';
+    content: ''!important;
 }
 
 .loadingMessageBackdrop {
-    background: white;
-    opacity: 0.7;
+    background: white!important;
+    opacity: 0.7!important;
 }
 
 .lwControl.dynamic .content {
-    background: white;
-    box-shadow: 0 2px 5px #999;
+    background: white!important;
+    box-shadow: 0 2px 5px #999!important;
 }
 
 .lwControl.dynamic .content .control-label {
-    color: black;
-    font-weight: bold;
+    color: black!important;
+    font-weight: bold!important;
 }
 
 .lwControl.dynamic .content .link-button:hover a {
-    background: #dedede ;
+    background: #dedede !important;
 }
 
 .lwControl.dynamic .content a, .lwControl.dynamic .content .control-value, .lwControl.dynamic .content label {
-    color: #094077;
+    color: #094077!important;
 }
 
 .lwControl.dynamic .content select {
-    background: white;
-    color: black;
+    background: white!important;
+    color: black!important;
 }
 
 .lwDialog {
-    border-radius: 3px;
-    box-shadow: 0 0 5px #666;
+    border-radius: 3px!important;
+    box-shadow: 0 0 5px #666!important;
 }
 
 .lwDialog.window-full-screen {
-    opacity: 1;
+    opacity: 1!important;
 }
 
 .lwTooltip {
-    background: #094077;
-    box-shadow: 0 0 30px #aaa;
+    background: #094077!important;
+    box-shadow: 0 0 30px #aaa!important;
 }
 
 .lwTooltip img {
-    border: none;
-    box-shadow: 0 0 7px #333;
+    border: none!important;
+    box-shadow: 0 0 7px #333!important;
 }
 
 .mainContentRight {
-    overflow-y: auto;
+    overflow-y: auto!important;
 }
 
 .menu .area {
-    background: white;
-    border: none;
-    box-shadow: 0 0 30px #555;
-    color: #094077;
-    height: 100%;
-    min-width: 300px;
-    width: 300px;
+    background: white!important;
+    border: none!important;
+    box-shadow: 0 0 30px #555!important;
+    color: #094077!important;
+    height: 100%!important;
+    min-width: 300px!important;
+    width: 300px!important;
 }
 
 .menu .area .column {
-    height: calc(100% + 10px);
+    height: calc(100% + 10px)!important;
 }
 
 .menu .area .content {
-    margin: 30px 0;
-    width: 100%;
+    margin: 30px 0!important;
+    width: 100%!important;
 }
 
 .menu .area .content .moduleContainer {
-    height: 35px;
-    line-height: 25px;
-    margin: 0;
-    padding: 0 30px;
+    height: 35px!important;
+    line-height: 25px!important;
+    margin: 0!important;
+    padding: 0 30px!important;
 }
 
 .menu .area .content .moduleContainer:hover {
-    background: #094077;
+    background: #094077!important;
 }
 
 .menu .area .content .moduleContainer:hover .moduleName, .menu .area .content .moduleContainer:hover a.documentationLink i {
-    color: white;
-    opacity: 1;
+    color: white!important;
+    opacity: 1!important;
 }
 
 .menu .area .content h2 {
-    font-weight: bold;
-    margin-left: 30px;
+    font-weight: bold!important;
+    margin-left: 30px!important;
 }
 
 .menu .area .content h2, .menu .area .content .moduleContainer .moduleName, a.documentationLink i {
-    color: #094077;
+    color: #094077!important;
 }
 
 .menu .area .content h2:hover {
-    color: inherit;
+    color: inherit!important;
 }
 
 .menu available-modules ul.navigation li {
-    background-color: #094077;
-    border-bottom: 1px solid #093067;
-    border-right: 1px solid #093067;
-    border-top: 1px solid #195087;
+    background-color: #094077!important;
+    border-bottom: 1px solid #093067!important;
+    border-right: 1px solid #093067!important;
+    border-top: 1px solid #195087!important;
 }
 
 .nav.nav-tabs {
-    padding-bottom: 5px;
+    padding-bottom: 5px!important;
 }
 
 .nav.nav-tabs li a {
-    background-color: transparent;
-    border: none;
-    padding: 5px 15px;
+    background-color: transparent!important;
+    border: none!important;
+    padding: 5px 15px!important;
 }
 
 .nav.nav-tabs li a i {
-    padding: 0 0 0 10px;
-    position: relative;
+    padding: 0 0 0 10px!important;
+    position: relative!important;
 }
 
 .nav.nav-tabs li a.active i.documentationLink {
-    color: white ;
+    color: white !important;
 }
 
 .nav.nav-tabs li.active a {
-    background-color: #094077;
-    border: none;
-    box-shadow: 0 2px 5px #aaa;
-    color: white;
+    background-color: #094077!important;
+    border: none!important;
+    box-shadow: 0 2px 5px #aaa!important;
+    color: white!important;
 }
 
 .notification-title, .notification-body, .notification-date, .notification-view-all {
-    color: black;
+    color: black!important;
 }
 
 .notificationsTable .unread-true {
-    background: #dedede;
+    background: #dedede!important;
 }
 
 .slick-cell.selected {
-    background: #094077;
+    background: #094077!important;
 }
 
 available-modules ul.navigation li a img {
 }
 
 available-modules ul.navigation li:first-of-type {
-    height: 80px;
+    height: 80px!important;
 }
 
 available-modules ul.navigation li:first-of-type a span {
-    display: none;
+    display: none!important;
 }
 
 button.btn {
-    background: none;
-    background-color: #e9eaeb;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 5px #ccc;
+    background: none!important;
+    background-color: #e9eaeb!important;
+    border: 1px solid #ccc!important;
+    box-shadow: 0 2px 5px #ccc!important;
 }
 
 button.btn.btn-primary, button.btn.active {
-    background: none;
-    background-color: #094077 ;
-    border-bottom: 1px solid white;
-    box-shadow: 0 2px 5px #aaa;
+    background: none!important;
+    background-color: #094077 !important;
+    border-bottom: 1px solid white!important;
+    box-shadow: 0 2px 5px #aaa!important;
 }
 
 button.btn.btn-primary:hover, button.btn.active {
-    color: white;
+    color: white!important;
 }
 
 button.btn.logoutBtn {
-    background: #A63639;
-    border: #A63639;
-    box-shadow: none;
+    background: #A63639!important;
+    border: #A63639!important;
+    box-shadow: none!important;
 }
 
 button.btn:active {
-    transform: scale(0.95);
-    transition: all 0.05s;
+    transform: scale(0.95)!important;
+    transition: all 0.05s!important;
 }
 
 button.btn:hover, tr.highlight td button.btn:hover {
-    box-shadow: none;
-    color: #555555;
-    transform: scale(0.98);
-    transition: all 0.1s;
+    box-shadow: none!important;
+    color: #555555!important;
+    transform: scale(0.98)!important;
+    transition: all 0.1s!important;
 }
 
 div.header-buttons button, div.header-buttons a i {
-    color: white;
-    opacity: 1;
+    color: white!important;
+    opacity: 1!important;
 }
 
 div.leftMenuBackground {
-    background-color: #094077;
+    background-color: #094077!important;
 }
 
 div.lwDialog .content {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px!important;
+    border-bottom-right-radius: 3px!important;
 }
 
 div.lwDialog .title {
-    border-bottom: 5px solid;
-    border-image: linear-gradient(to right, #094077, #01d2b3) 1 100;
+    border-bottom: 5px solid!important;
+    border-image: linear-gradient(to right, #094077, #01d2b3) 1 100!important;
 }
 
 div.lwDialog.default {
-    box-shadow: 0 0 15px #333;
+    box-shadow: 0 0 15px #333!important;
 }
 
 div.lwDialogBackDrop {
-    opacity: 0.3;
+    opacity: 0.3!important;
 }
 
 div.title {
-    background-color: #094077;
+    background-color: #094077!important;
 }
 
 header-panel.headerPanel.active {
-    background-color: #094077;
-    box-shadow: 0 0 1px #062748;
-    z-index: 1;
+    background-color: #094077!important;
+    box-shadow: 0 0 1px #062748!important;
+    z-index: 1!important;
 }
 
 html {
-    overflow-y: hidden;
+    overflow-y: hidden!important;
 }
 
 input[readonly], textarea[readonly] {
-    background: #f0f0f0;
-    opacity: 1;
+    background: #f0f0f0!important;
+    opacity: 1!important;
 }
 
 tr.headerRow {
-    background: #08366D;
+    background: #08366D!important;
 }
 
 tr.headerRow td .close {
-    background: #08366D;
+    background: #08366D!important;
 }
 
 tr.headerRow td a {
-    color: white;
-    max-width: 185px;
-    text-align: left;
+    color: white!important;
+    max-width: 185px!important;
+    text-align: left!important;
 }
 
 tr.headerRow td li a, tr.headerRow td .close {
-    background: transparent;
-    border: none;
-    color: white;
-    opacity: 1;
+    background: transparent!important;
+    border: none!important;
+    color: white!important;
+    opacity: 1!important;
 }
 
 tr.headerRow td, tr.headerRow td span.tabSwitcher {
-    background: #08366D;
-    color: white;
+    background: #08366D!important;
+    color: white!important;
 }
 
 tr.headerRow td.active {
-    background: white;
+    background: white!important;
 }
 
 tr.headerRow td.active .close {
-    color: #08366D;
+    color: #08366D!important;
 }
 
 tr.headerRow td.active a {
-    box-shadow: none;
-    color: #094077;
+    box-shadow: none!important;
+    color: #094077!important;
 }
 
 tr.highlight td button.btn {
-    box-shadow: 0 2px 5px #2a779d;
+    box-shadow: 0 2px 5px #2a779d!important;
 }
 
 ul.dropdown-menu {
-    margin-bottom: 20px;
-    overflow-y: auto;
-    padding: 3px 0px;
+    margin-bottom: 20px!important;
+    overflow-y: auto!important;
+    padding: 3px 0px!important;
 }
 
 ul.nav.nav-tabs {
-    border-bottom: 1px solid #ddd ;
+    border-bottom: 1px solid #ddd !important;
 }
 
 ul.thumbnails {
-    overflow-y: auto;
+    overflow-y: auto!important;
 }
 
