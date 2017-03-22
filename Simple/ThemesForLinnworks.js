@@ -2,7 +2,7 @@ function ThemesForLinnworksModule($scope, $element, $q) {
 
     var self = this;
 	
-	$scope.styles = [{Name: "Test Theme", Description: "This is a test theme", File: "00001.css"}];
+	$scope.styles = [{Name: "Test Theme", Description: "This is a test theme", File: "linn-dark-blue.css"}];
 
     self.onMessage = function(msg) {
         switch (msg.key) {
