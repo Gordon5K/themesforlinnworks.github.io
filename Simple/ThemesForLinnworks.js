@@ -17,12 +17,20 @@ function ThemesForLinnworksModule($scope, $element, $q) {
 		
 		settingsService.addSetting("ThemesForLinnworks", "ThemeUrl", style.File, false, function(event)
 		{
-				if(event.hasErrors() == true)
-				{
-					console.log("error saving theme url");
-				}
+			if(event.hasErrors() == true)
+			{
+				console.log("error saving theme url");
+				return;
+			}
 				
-				Core.Dialogs.addNotify("Installed! Please refresh Linnworks now.", "SUCCESS");
+			Push.create("Themes For Linnworks", {
+			    body: "Theme installed! Reset Linnworks to apply changes.",
+			    icon: 'https://cdn.rawgit.com/AlexConnolly/themesforlinnworks.github.io/f07413df/Data/logo-140x140.png',
+			    timeout: 4000,
+			    onClick: function () {
+				    
+			    }
+			});
 		});
 	}
 	
