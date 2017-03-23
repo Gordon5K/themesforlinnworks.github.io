@@ -102,7 +102,7 @@ div[ng-controller="UserSettingsView"] .content select {
     box-shadow: 0 2px 5px #ccc !important;
 }
 
-.btn:hover {
+.btn:not([disabled]):hover {
     transform:scale(0.99)!important;
     box-shadow: 0 1px 3px #ccc !important;
     color:inherit!important;
@@ -118,6 +118,14 @@ div[ng-controller="UserSettingsView"] .content select {
     background: none!important;
     background-color: #094077 !important;
     border: none!important;
+}
+
+.btn[disabled] {
+    box-shadow:none!important;
+}
+
+tr.highlight .btn {
+    box-shadow: 0 2px 5px #4a97bd !important;
 }
 
 .btn.btn-primary:hover {
