@@ -1,6 +1,7 @@
 .lwDialog {
     border-radius: 3px!important;
     box-shadow: 0 0 5px #666!important;
+    transition: all .5s;
 }
 
 .lwDialog .nav.nav-tabs {
