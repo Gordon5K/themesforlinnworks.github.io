@@ -5,6 +5,10 @@
     animation: dialog-open 0.8s ease-in-out;
 }
 
+.lwDialog.builtIn {
+    animation:none;
+}
+
 @keyframes dialog-open {
 	0% {
 		margin-top:-100%;
