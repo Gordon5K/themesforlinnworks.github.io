@@ -2,6 +2,22 @@
     border-radius: 3px!important;
     box-shadow: 0 0 5px #666!important;
     transition: all .5s;
+    animation: dialog-open 0.8s ease-in-out;
+}
+
+@keyframes dialog-open {
+	0% {
+		margin-top:-100%;
+		opacity:1;
+		overflow-y:hidden;
+	}
+	90% {
+		margin-top: 90px;
+		margin-bottom:10px;
+	}
+	100%  {
+		opacity:1;
+	}
 }
 
 .lwDialog .nav.nav-tabs {
