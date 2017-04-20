@@ -11,18 +11,27 @@
 
 @keyframes dialog-open {
 	0% {
-		margin-top:-100%;
+		margin-top:-60%;
+		transform:scale(0.7);
 		opacity:1;
 		overflow-y:hidden;
 	}
-	90% {
-		margin-top: 90px;
-		margin-bottom:10px;
+	70% {
+		margin-top: 75px;
+		margin-bottom:25px;
 	}
-	100%  {
+	85% {
+		margin-top: 48px;
+		margin-bottom: 62px;
+	}
+	95%  {
 		opacity:1;
+	},
+	100% {
+		transform:scale(1);
 	}
 }
+
 
 .lwDialog .nav.nav-tabs {
     padding-bottom: 5px!important;
@@ -42,6 +51,10 @@
 .lwDialog .nav.nav-tabs li.active a {
     background-color: #094077!important;
     color: white!important;
+}
+
+.lwControl.dynamic {
+	box-shadow: 0 2px 5px #999 !important;
 }
 
 .nav.nav-tabs li a {
@@ -116,17 +129,29 @@ div[ng-controller="UserSettingsView"] .content select {
     border-top: 1px solid #195087!important;
 }
 
-.btn {
+.btn,
+.lwDialog.builtIn .title .btn-primary  {
     background: none!important;
     background-color: #e9eaeb!important;
     border: 1px solid #ccc!important;
     box-shadow: 0 2px 5px #ccc !important;
 }
 
-.btn:not([disabled]):hover {
+
+.lwDialog.builtIn .title .btn-primary {
+	color:#333;
+	box-shadow: 0 2px 5px #094077 !important;
+}
+
+.btn:not([disabled]):hover,
+.lwDialog.builtIn .title .btn-primary:not([disabled]):hover {
     transform:scale(0.99)!important;
     box-shadow: 0 1px 3px #ccc !important;
     color:inherit!important;
+}
+
+.lwDialog.builtIn .title .btn-primary:not([disabled]):hover {
+	color:#333!important;
 }
 
 .btn:active {
