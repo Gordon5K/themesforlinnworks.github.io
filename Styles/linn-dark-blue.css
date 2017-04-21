@@ -2,7 +2,7 @@
     border-radius: 3px!important;
     box-shadow: 0 0 5px #666!important;
     transition: all .5s;
-    animation: dialog-open 0.8s ease-in-out;
+    animation: dialog-open 0.5s ease-in-out;
 }
 
 .lwDialog.builtIn {
@@ -10,26 +10,20 @@
 }
 
 @keyframes dialog-open {
-	0% {
-		margin-top:-60%;
-		transform:scale(0.7);
-		opacity:1;
-		overflow-y:hidden;
-	}
-	70% {
-		margin-top: 75px;
-		margin-bottom:25px;
-	}
-	85% {
-		margin-top: 48px;
-		margin-bottom: 62px;
-	}
-	95%  {
-		opacity:1;
-	},
-	100% {
-		transform:scale(1);
-	}
+ 0% {
+  margin-top:-60%;
+  transform:scale(0.9);
+  opacity:1;
+  overflow-y:hidden;
+ }
+ 70% {
+  margin-top: 50px;
+  margin-bottom:50px;
+  transform:scale(0.9);
+ }
+ 100% {
+  transform:scale(1);
+ }
 }
 
 
