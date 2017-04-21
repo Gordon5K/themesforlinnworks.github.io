@@ -2,7 +2,7 @@
     border-radius: 3px!important;
     box-shadow: 0 0 5px #666!important;
     transition: all .5s;
-    animation: dialog-open 0.5s ease-in-out;
+    animation: dialog-open 0.6s ease-in-out;
 }
 
 .lwDialog.builtIn {
@@ -12,14 +12,16 @@
 @keyframes dialog-open {
  0% {
   margin-top:-60%;
-  transform:scale(0.9);
   opacity:1;
   overflow-y:hidden;
  }
- 70% {
+ 30%{
+  transform:scale(0.9);
+ }
+ 50% {
   margin-top: 50px;
   margin-bottom:50px;
-  transform:scale(0.9);
+  transform:scale(0.95);
  }
  100% {
   transform:scale(1);
