@@ -7,7 +7,7 @@
 
 .menu available-modules ul.navigation li:hover
 {
-    background-color: #0c3863;
+    background-color: #0c3863 !important;
     border-bottom: 1px solid #061121!important;	
 }
 
