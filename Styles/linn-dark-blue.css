@@ -5,14 +5,14 @@
     animation: dialog-open 0.6s ease-in-out;
 }
 
-.menu .area .column {
+.menu .area {
     transition: all .5s;
     animation: column-open 0.3s ease-in-out;
 }
 
 @keyframes column-open {
     0% {
-        margin-left: 50px;	    
+        margin-left: -50px;	    
     }
     100% {
         margin-left: 0px; 
