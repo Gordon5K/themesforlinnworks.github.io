@@ -51,7 +51,7 @@
 }
 
 .lwDialog .nav.nav-tabs li.active a {
-    background-color: #094077!important;
+    background-color: #1B9DFF!important;
     color: white!important;
 }
 
@@ -75,7 +75,7 @@
 .headerBlock.opened,
 .headerBlock.opened a {
     background:white!important;
-    color:#094077!important;
+    color:#1B9DFF!important;
 }
 
 div[ng-controller="UserSettingsView"] .content,
@@ -95,7 +95,7 @@ div[ng-controller="UserSettingsView"] .content .link-button a,
 div[ng-controller="UserDetailsView"] .content .control-label,
 div[ng-controller="UserDetailsView"] .content .control-value,
 div[ng-controller="UserDetailsView"] .content .link-button a {
-    color:#094077!important;
+    color:#1B9DFF!important;
 }
 
 div[ng-controller="UserSettingsView"] .content .link-button a:hover,
@@ -105,14 +105,14 @@ div[ng-controller="UserDetailsView"] .content .link-button a:hover {
 
 div[ng-controller="UserSettingsView"] .content select {
     background:white!important;
-    color:#094077!important;
+    color:#1B9DFF!important;
 }
 
 .menu .area {
     background: white!important;
     border: none!important;
     box-shadow: 0 0 30px #555!important;
-    color: #094077!important;
+    color: #1B9DFF!important;
     height: 100vh!important;
 }
 
@@ -121,11 +121,11 @@ div[ng-controller="UserSettingsView"] .content select {
 }
 
 .menu .area .content h2, .menu .area .content .moduleContainer .moduleName {
-    color: #094077!important;
+    color: #1B9DFF!important;
 }
 
 .menu available-modules ul.navigation li {
-    background-color: #094077!important;
+    background-color: #1B9DFF!important;
     border-bottom: 1px solid #093067!important;
     border-right: 1px solid #093067!important;
     border-top: 1px solid #195087!important;
@@ -142,7 +142,7 @@ div[ng-controller="UserSettingsView"] .content select {
 
 .lwDialog.builtIn .title .btn-primary {
 	color:#333;
-	box-shadow: 0 2px 5px #094077 !important;
+	box-shadow: 0 2px 5px #1B9DFF !important;
 }
 
 .btn:not([disabled]):hover,
@@ -164,7 +164,7 @@ div[ng-controller="UserSettingsView"] .content select {
 .btn.btn-primary,
 .btn.active {
     background: none!important;
-    background-color: #094077 !important;
+    background-color: #1B9DFF !important;
     border: none!important;
 }
 
@@ -196,7 +196,7 @@ tr.highlight .btn {
 }
 
 .leftMenuBackground {
-    background-color: #094077!important;
+    background-color: #1B9DFF!important;
 }
 
 .lwDialog .content {
@@ -206,7 +206,7 @@ tr.highlight .btn {
 
 .lwDialog .title {
     border-bottom: 5px solid !important;
-    border-image: linear-gradient(to right, #094077, #01d2b3) 1 100 !important;
+    border-image: linear-gradient(to right, #1B9DFF, #01d2b3) 1 100 !important;
 }
 
 .lwDialog.default {
@@ -218,11 +218,11 @@ tr.highlight .btn {
 }
 
 .title {
-    background-color: #094077!important;
+    background-color: #1B9DFF!important;
 }
 
 .headerPanel.active {
-    background-color: #094077!important;
+    background-color: #1B9DFF!important;
     box-shadow: 0 0 1px #062748!important;
     z-index: 1!important;
 }
@@ -271,7 +271,7 @@ tr.headerRow td.active .close{
 }
 
 .nav.nav-tabs li.active a {
-    background-color: #094077 !important;
+    background-color: #1B9DFF !important;
     border: none !important;
     box-shadow: 0 2px 5px #aaa !important;
     color: white !important;
